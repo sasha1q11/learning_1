@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, ".1251");
 	string input;
-	cout << "Ââåäèòå ñòðîêó: ";
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã±Ã²Ã°Ã®ÃªÃ³: ";
 	getline(cin, input);
 	string cleaned;
 	for (char c : input) {
@@ -25,10 +25,10 @@ int main() {
 		right--;
 	}
 	if (isPalindrome) {
-		cout << "Ñòðîêà ÿâëÿåòñÿ ïàëèíäðîìîì." << endl;
+		cout << "Ã‘Ã²Ã°Ã®ÃªÃ  Ã¿Ã¢Ã«Ã¿Ã¥Ã²Ã±Ã¿ Ã¯Ã Ã«Ã¨Ã­Ã¤Ã°Ã®Ã¬Ã®Ã¬." << endl;
 	}
 	else {
-		cout << "Ñòðîêà ÍÅ ÿâëÿåòñÿ ïàëèíäðîìîì." << endl;
+		cout << "Ã‘Ã²Ã°Ã®ÃªÃ  ÃÃ… Ã¿Ã¢Ã«Ã¿Ã¥Ã²Ã±Ã¿ Ã¯Ã Ã«Ã¨Ã­Ã¤Ã°Ã®Ã¬Ã®Ã¬." << endl;
 	}
 	system ("pause");
 	return 0;
